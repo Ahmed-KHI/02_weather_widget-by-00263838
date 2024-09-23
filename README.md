@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Weather Widget Project
 
-## Getting Started
+Overview:
 
-First, run the development server:
+The Weather Widget is a dynamic web application designed to provide users with current weather information for any specified location. This project is part of the 30 Days of 30 Projects initiative from the Governor IT Initiative Program, aimed at enhancing my skills in web development and API integration.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Key Features:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+City Search:
+Users can input a city name to fetch its current weather data, promoting user engagement and interactivity.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Real-Time Weather Display:
+The widget displays:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Current Temperature: Shown in Celsius, accompanied by a user-friendly message tailored to the temperature range.
 
-## Learn More
+Weather Conditions: Clear descriptions of the weather (e.g., sunny, cloudy, rainy) with corresponding messages to inform users about expected weather phenomena.
 
-To learn more about Next.js, take a look at the following resources:
+Location Context: Provides a contextual message about the time of day at the specified location (day or night).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Error Handling: The application gracefully handles errors, such as invalid city names or empty input, displaying relevant messages to guide users.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Technologies Used:
 
-## Deploy on Vercel
+React:
+Employed for building a responsive user interface and managing application state with hooks.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+TypeScript:
+Utilized for type safety, enhancing code reliability.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Weather API:
+Integrated with an external weather API (WeatherAPI) to fetch real-time data.
+
+Conclusion:
+
+This Weather Widget project showcases my ability to create interactive web applications using React and API integration. It serves as a practical demonstration of handling user input, managing application state, and providing real-time feedback, setting a solid foundation for more complex projects in the future.
